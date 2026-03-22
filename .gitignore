@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (don't commit large datasets to git)
+data/*.csv
+data/*.xlsx
+!data/README.md
+
+# Models (too large for git)
+models/*.pkl
+models/*.h5
+models/*.joblib
+!models/README.md
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Misc
+*.log
+.env
