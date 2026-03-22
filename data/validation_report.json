@@ -1,0 +1,22 @@
+{
+  "dataset": "Taiwan Economic Journal - Company Bankruptcy Prediction",
+  "source": "https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction",
+  "records": 6819,
+  "features": 95,
+  "target": "Bankrupt?",
+  "class_distribution": {
+    "survived": 6599,
+    "bankrupt": 220
+  },
+  "imbalance_ratio": "30:1",
+  "missing_values": 0,
+  "duplicates": 0,
+  "outlier_features": 13,
+  "top_5_predictors": [
+    "Net Income to Total Assets (|r|=0.316)",
+    "ROA(A) before interest (|r|=0.283)",
+    "ROA(B) before interest (|r|=0.273)",
+    "ROA(C) before interest (|r|=0.261)",
+    "Debt ratio % (|r|=0.250)"
+  ]
+}
