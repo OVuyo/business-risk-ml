@@ -84,7 +84,7 @@ business-risk-ml/
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/business-risk-ml.git
+git clone https://github.com/OVuyo/business-risk-ml.git
 cd business-risk-ml
 
 # Python
